@@ -21,9 +21,9 @@ global.caption = process.env.CAPTION || global.caption || "αѕтα-м∂ 2024"
 global.BUTTONS = process.env.BUTTONS || process.env.MENU_BTN || "1";
 
 
-global.devs = "2348039607375"
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "2348039607375";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348039607375";
+global.devs = "263713271179"
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "263713271179";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "26371321179";
 global.style = process.env.STYLE   || '2'
 global.flush = process.env.FLUSH   || "false"; 
 global.gdbye = process.env.GOODBYE || "false"; 
@@ -67,7 +67,7 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "αѕтяσ",
   packname: process.env.PACK_NAME || "αѕтяσ",
-  botname : process.env.BOT_NAME  || "ᴀsᴛᴀ-ᴍᴅ",
+  botname : process.env.BOT_NAME  || "Prosper",
   ownername:process.env.OWNER_NAME|| "αѕтяσ",
   errorChat : process.env.ERROR_CHAT || "",
   KOYEB_API : process.env.KOYEB_API  || "false",
